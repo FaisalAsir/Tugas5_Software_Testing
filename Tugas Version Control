@@ -2,7 +2,7 @@
 int z;
 void pertambahan(x,y)
 {
-	z= x+y;
+	h= x+y;
 }
 void main()
 {
@@ -10,5 +10,5 @@ void main()
 	cout << "masukan nilai1 = ";cin >> x;
 	cout << "masukan nilai2 = ";cin >> y;
 	pertambahan(x,y);
-	cout << "hasil penjumlahan = " << z << endl;
+	cout << "hasil penjumlahan = " << h << endl;
 }
